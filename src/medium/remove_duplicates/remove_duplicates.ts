@@ -23,9 +23,9 @@ function main() {
 
   const k = removeDuplicates(nums);
 
-  assert(k == expectedNums.length);
+  assert(k === expectedNums.length);
   for (let i = 0; i < k; i++) {
-    assert(nums[i] == expectedNums[i]);
+    assert(nums[i] === expectedNums[i]);
   }
 }
 
