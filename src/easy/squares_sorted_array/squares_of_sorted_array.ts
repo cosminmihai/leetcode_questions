@@ -20,7 +20,7 @@ function sortedSquares(nums: number[]): number[] {
   return squaredList;
 }
 
-function main() {
+function main(): void {
   const input: number[] = [-4, -1, 0, 3, 10];
   const output: number[] = [0, 1, 9, 16, 100];
 
